@@ -1,0 +1,67 @@
+export const dogs = [
+  {
+    id: "1",
+    name: "Moti",
+    location: "Kolhar",
+    category: "Injured",
+    status: "Needs Medical Help",
+    description:
+      "Hi, I'm Moti. I was found near Kolhar railway station with a broken leg after an accident. I'm getting basic care but still need surgery to walk again.",
+    image: "https://placedog.net/500",
+    adoption_link: "#",
+    payment_link: "#",
+    is_success: false,
+  },
+  {
+    id: "2",
+    name: "Sheru",
+    location: "Pune",
+    category: "Puppy",
+    status: "Urgent Adoption",
+    description:
+      "Hey, I'm Sheru. I was abandoned near a chai tapri in Pune. I'm playful, healthy, and just looking for someone to call my family.",
+    image: "https://placedog.net/501",
+    adoption_link: "#",
+    payment_link: "#",
+    is_success: false,
+  },
+  {
+    id: "3",
+    name: "Kalu",
+    location: "Nagpur",
+    category: "Injured",
+    status: "Needs Medical Help",
+    description:
+      "I'm Kalu. I was found near a highway in Nagpur with deep wounds. Locals are feeding me, but I need proper treatment and shelter.",
+    image: "https://placedog.net/503",
+    adoption_link: "#",
+    payment_link: "#",
+    is_success: false,
+  },
+  {
+    id: "4",
+    name: "Rani",
+    location: "Nashik",
+    category: "Senior",
+    status: "Urgent Adoption",
+    description:
+      "Hi, I'm Rani. I'm getting old and was left behind when my owners moved away. I’m calm, loving, and just need a peaceful home.",
+    image: "https://placedog.net/504",
+    adoption_link: "#",
+    payment_link: "#",
+    is_success: false,
+  },
+  {
+    id: "5",
+    name: "Bruno",
+    location: "Mumbai",
+    category: "Senior",
+    status: "Recently Saved",
+    description:
+      "I’m Bruno. I was rescued from the streets of Mumbai and now fully recovered. Living safely and happily thanks to kind humans.",
+    image: "https://placedog.net/502",
+    adoption_link: "#",
+    payment_link: "#",
+    is_success: true,
+  },
+];

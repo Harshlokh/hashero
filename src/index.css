@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@plugin "daisyui";
+
+.btn2 {
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 12px;
+    max-width: 150px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn2:hover {
+    background-color: #2d2d2d; /* Equivalent to gray-800 */
+  }
+
+
+  .btn1 {
+    color: white; /* text-white */
+    background-color: #6114fa; /* bg-customPurple */
+    padding: 10px 24px; /* px-8 (32px), py-3 (12px) */
+    border-radius: 8px; /* rounded-lg */
+    font-weight: 600; /* font-semibold */
+    font-size: 14px; /* text-sm */
+    cursor: pointer;
+    height: 39px;
+    width: 140px;
+}
+
+.btn1:hover {
+  background-color: #4701d3;
+}
+
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fcfcfc;
+  
+}
+
+
+.inter-fontstyle {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-10px); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.animate-fadeOut {
+  animation: fadeOut 0.3s ease forwards 1.7s; /* starts fadeOut after 1.7s */
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+::selection {
+  background-color: #22c55e; /* green */
+  color: white; /* text color when selected */
+}
+
+
